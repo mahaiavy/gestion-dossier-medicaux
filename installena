@@ -1,0 +1,158 @@
+reactstrap
+react-paginaton
+react-router-dom
+BROWSER-sync
+lite-server
+react dev tools
+//
+composer require laravel/passport
+composer require predis/predis
+npm install -g laravel-echo-server
+
+laravel-echo-server-init
+npm install -g laravel-echo
+npm install socket.io-client
+
+1514
+ control T:go file
+sHift control F:recherche dans u fichier
+control shift M:toggle terminal
+
+//PUSHERR
+PUSHER_APP_ID=1189835
+PUSHER_APP_KEY=100df36a50600cccaf1a
+PUSHER_APP_SECRET=14c42e7f27c9467b6abf
+
+
+
+react-hook-form
+react-datepicker
+ yup
+-D @types/yup
+@hookForm/resolvers
+-D parcel-bundler
+npx parcel index.html
+-D parcel@next
+
+
+
+
+
+  <div>
+              {/* toolbar with suitable buttons and dialogues */}
+              <div id='toolbar'>
+                <a data-wysihtml5-command='bold'>bold</a>
+                <a data-wysihtml5-command='italic'>italic</a>
+                <a data-wysihtml5-command='formatBlock' data-wysihtml5-command-value='h1'>H1</a>
+                <a data-wysihtml5-command='formatBlock' data-wysihtml5-command-value='p'>P</a>
+              </div>
+
+              {/* element to edit */}
+              <div id='editor' data-placeholder='Go on, start editing...' />
+            </div>
+
+              componentDidMount () {
+    console.log('wysihtml', wysihtml)
+    var editor = wysihtml.Editor('editor', {
+      toolbar: 'toolbar'
+    })
+    console.log('editor', editor)
+  }
+
+    var editor = new wysihtml5.Editor('editor', {
+    toolbar: 'toolbar',
+    parserRules:  wysihtml5ParserRules
+  });
+
+
+
+
+
+
+
+
+  import React from 'react';
+import ReactDOM from 'react-dom';
+import {Editor, EditorState} from 'draft-js';
+import 'draft-js/dist/Draft.css';
+
+class MyEditor extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {editorState: EditorState.createEmpty()};
+    this.onChange = editorState => this.setState({editorState});
+  }
+
+  render() {
+    return (
+      <Editor editorState={this.state.editorState} onChange={this.onChange} />
+    );
+  }
+}
+
+ReactDOM.render(<MyEditor />, document.getElementById('container'));
+
+
+
+
+
+
+
+
+import React from 'react';
+import ReactDOM from 'react-dom';
+import {Editor, EditorState} from 'draft-js';
+import 'draft-js/dist/Draft.css';
+
+function MyEditor() {
+  const [editorState, setEditorState] = React.useState(
+    () => EditorState.createEmpty(),
+  );
+
+  return <Editor editorState={editorState} onChange={setEditorState} />;
+}
+
+ReactDOM.render(<MyEditor />, document.getElementById('container'));
+
+
+
+
+
+import React from 'react';
+import ReactDOM from 'react-dom';
+import {Editor, EditorState} from 'draft-js';
+import 'draft-js/dist/Draft.css';
+
+class MyEditor extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {editorState: EditorState.createEmpty()};
+    this.onChange = editorState => this.setState({editorState});
+  }
+
+  render() {
+    return (
+      <Editor editorState={this.state.editorState} onChange={this.onChange} />
+    );
+  }
+}
+
+ReactDOM.render(<MyEditor />, document.getElementById('container'));
+
+////install vao
+hebergement 
+postuler
+site web
+cMS proprietaire
+REST
+wireframes
+workflows React
+EcmaScript
+Immutable.js(bibliotheque de structure de donnes )
+React Isomorphe
+API RestFull
+JSON WEB tOKEN
+PIPELINE
+babel webpack
+
+ 

@@ -1,0 +1,462 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    font-size: small;
+}
+
+
+.deconnecte{
+    z-index: 55;
+}
+.colorbleu{
+    color: rgb(26, 109, 148);
+}
+.bg-bleu{
+    background: rgb(26, 109, 148);
+}
+#c_nav{
+    height: 13vh;
+}
+#logo_nav{
+    text-align: center;
+}
+.contenu{
+    background: rgb(58, 59, 150);
+}
+#b_log{
+    text-align: center;
+    width: 60%;
+}
+#c_log{
+    width:auto;
+}
+#h_log{
+background: rgb(216, 217, 233);
+text-align: center;
+color: rgb(26, 109, 148);
+}
+#c_Ncount{
+    color: green;
+}
+
+
+#MNP,#MNP_log{
+    color: rgb(26, 109, 148);
+    font-family:'SSS5',"Times new roman",vernada,serif;
+    font-weight: bold;
+}
+.logo_CHRR{
+
+  size: 20em;
+}
+.UG,.CAL{
+    height: 21VH;
+}
+
+#menu h6{
+    background: none;
+   
+    margin-top:-8px ;
+   
+     padding: 3px;
+    
+   
+    text-decoration: none;
+}
+#menu h6 a{
+    
+
+    color: rgb(188, 191, 202);
+    text-decoration-style: none;
+    font-weight: bold;
+    
+}
+
+#registredrop li a{
+   text-decoration: none;
+   
+}
+
+.subheadtab{
+    font-weight: bolder;
+  
+     font-size: 13px;
+}
+
+
+#content_home{
+    background:linear-gradient(rgba(24, 22, 22, 0.5),rgba(103, 148, 165, 0.7),rgba(94, 163, 180, 0.7)) ;
+}
+#bienvenue{
+    background:rgba(24, 22, 22, 0.7);
+    
+    border-radius: 5px;
+    border-top: 3px solid rgb(245,135,46);
+}
+#elarge{
+    height: 24vh;
+}
+
+.ug_show{
+    margin-left: 850px;
+}
+#foot_ug_show,li.hov{
+    background: linear-gradient(rgba(24, 22, 22, 0.5),rgba(36, 38, 39, 0.7),rgba(94, 163, 180, 0.7)) ;
+    
+}
+
+
+
+/* 
+
+fin login
+
+*/
+
+/* 
+contenue
+ */
+ .entete{
+  background: rgb(26, 109, 148);
+}
+
+
+
+
+/* sidebar */
+.badges{
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.nav_list{
+    margin-top: 120px;
+}
+
+.listeacte{
+    box-shadow: blue 2px;
+    border-radius: 5px;
+}
+
+.sides{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+    position: relative;
+    /* min-height: 100vh;
+    width: 100%;
+    overflow-x: scroll; */
+    /* overflow-y:none; */
+
+}
+
+.sidebar{
+    height: 100%;
+    width: 78px;
+    background-color: rgb(249, 252, 252);
+    position: fixed;
+    top: 0;
+    left:0;
+    padding: 6px 14px;
+    transition: all 0.5s ease;
+    z-index: 999;
+    
+}
+
+.sidebar.active{
+    width: 240px;
+}
+
+
+.sidebar.active .logo_content .logo{
+    opacity: 1;
+    color: rgb(26, 109, 148);
+    pointer-events: none;
+}
+
+.sidebar .logo_content .logo{
+    color: rgb(26, 109, 148);
+    display: flex;
+    height: 50px;
+    width: 100%;
+    align-items: center;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.logo_content .logo i{
+    font-size: 28px;
+    margin-right: 5px;
+}
+
+.logo_content .logo .logo_name{
+    font-size: 10px;
+    font-weight: 400;
+}
+
+.sidebar #btn{
+    color: rgb(26, 109, 148);
+    position: absolute;
+    left: 50%;
+    top: 6px;
+    font-size: 20px;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    line-height: 50px;
+    transform: translateX(-50%);
+}
+
+.sidebar.active #btn{
+   left: 90%;
+}
+
+.sidebar ul{
+    margin-top: 20px;
+}
+
+.sidebar ul li{
+    position: relative;
+    height: 40px;
+    width: 100%;
+    margin: 0 3px;
+    list-style: none;
+    line-height: 40px;
+    margin-top: 5px;
+
+    border-radius: 12px;
+}
+
+.sidebar ul li .fa-search{
+    position: absolute;
+    z-index: 99;
+    color: white;
+    top: 12px;
+    left: 12px;
+    font-size: 18px;
+    transition: all 0.5s ease;
+}
+
+.sidebar ul li .fa-search:hover{
+background-color:rgb(26, 109, 148) ;
+color: white;
+}
+
+.sidebar ul li input{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0%;
+    top: 0%;
+    outline: none;
+    border: none;
+    background-color: rgb(167, 168, 170);
+    padding-left: 50px;
+    font-size: 18px;
+    color: rgb(32, 36, 39);
+    border-radius: 12px;
+}
+
+.sidebar ul li .linke{
+    color: rgb(26, 109, 148);
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    transition: all 0.4s ease;
+    border-radius: 12px;
+    white-space: nowrap;
+}
+
+.sidebar ul li .linke.active{
+    color: rgb(250, 250, 253);
+   background-color: rgb(26, 109, 148);
+}
+
+.sidebar ul li .linke:hover{
+    color: rgb(250, 250, 253);
+   background-color: rgb(26, 109, 148);
+}
+
+.sidebar ul li .linke i{
+    height: 40px;
+    min-width: 50px;
+    border-radius: 12px;
+    line-height: 50px;
+    text-align: center;
+    margin-right: 4px;
+}
+
+.sidebar ul li .linke .fontimg{
+
+    margin-left: 4px;
+ 
+}
+
+.sidebar .links_name{
+    opacity: 0;
+    pointer-events: none;
+}
+.sidebar.active .links_name{
+    opacity: 1;
+   /* color:  rgb(4, 42, 75); */
+    pointer-events: none;
+}
+
+.home_content{
+    position: absolute;
+    height: 100%;
+    width: calc(100%-78px);
+    left: 78px;
+}
+
+.sidebar.active ~ .home_content{
+    width: calc(100%-240px);
+    left: 240px;
+}
+
+
+
+.input{
+    @apply text-sm ;
+ 
+}
+
+.input{
+    @apply  font-bold ;
+}
+.input{
+    @apply text-center ;
+}
+.input{
+    @apply  text-gray-800 ;
+}
+.input{
+    @apply  placeholder-gray-600 ;
+}
+.input{
+    @apply  border-t-0 ;
+}
+.input{
+    @apply   border-b-2 ;
+}
+.input{
+    @apply  border-l-0 ;
+}
+.input{
+    @apply  border-r-0 ;
+}
+.input{
+    @apply  border-blue-800 ;
+}
+.input{
+    @apply  rounded-none ;
+}
+
+.input:focus{
+    @apply  shadow-none;
+    
+}
+
+.input:focus{
+    @apply placeholder-white;
+    
+}
+
+.navlateral{
+    background: url('./images/bg3.jpg');
+    
+}
+
+ .acceuil{
+    background-image: url('./images/home.png');
+    background-size: 28px;
+    background-position-x: left;
+    background-position-y: center;
+    background-repeat: no-repeat;
+} 
+
+.pediatrie{
+    background-image: url('./images/pediatrie.jpg');
+    background-size: 18px;
+    background-position-x: left;
+    background-position-y: center;
+    background-repeat: no-repeat;
+} 
+
+.neonatologie{
+    background-image: url('./images/nouveaune.jpg');
+    background-size: 18px;
+    background-position-x: left;
+    background-position-y: center;
+    background-repeat: no-repeat;
+} 
+
+.consultationpediatrie{
+    background-image: url('./images/consultant.png');
+    background-size: 24px;
+    background-position-x: left;
+    background-position-y: center;
+    background-repeat: no-repeat;
+} 
+
+.patientpediatrie{
+    background-image: url('./images/patient.png');
+    background-size: 28px;
+    background-position-x: left;
+    background-position-y: center;
+    background-repeat: no-repeat;
+} 
+
+.logosidebar{
+    background-image: url('./images/logo.png');
+    background-size: 192px;
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+} 
+
+.antcdpersonnel{
+    max-height: 36rem;
+}
+
+/* @media (max-width:1292px) {
+    .navlateral {
+        visibility: hidden;
+    }
+} */
+
+/* @media (max-width:1291px) {
+    .listeNav {
+    visibility: visible;
+    
+    };
+   
+}
+
+@media (min-width:1292px) {
+    .listeNav {
+        visibility: hidden;
+        
+        };
+}
+
+@media (max-width:1024px) {
+    .sm-hide {
+    visibility: hidden;
+    }
+}
+@media (max-width:700px) {
+    .s-hide,.xs-hide {
+    visibility: hidden;
+    }
+}
+@media (max-width:991px) {
+    .entete {
+    height: 5rem;
+    }
+} */
